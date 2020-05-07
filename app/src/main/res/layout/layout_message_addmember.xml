@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingHorizontal="28dp"
+    android:paddingVertical="8dp"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/txtv_addmember_noti"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/noti_add_member"
+        android:textAlignment="center"
+        android:textSize="13sp" />
+</LinearLayout>
